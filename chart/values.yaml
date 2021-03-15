@@ -11,7 +11,7 @@ image:
 elector:
   repository: k8s.gcr.io/leader-elector:0.5
   pullPolicy: Always
-  appname: simple
+  appname: election
   ttl: 2s
 
 imagePullSecrets: []
