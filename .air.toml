@@ -1,0 +1,10 @@
+root = "."
+tmp_dir = "bin"
+
+[build]
+cmd = "make build"
+full_bin = "bin/testelection"
+include_ext = ["go"]
+
+[misc]
+clean_on_exit = true
